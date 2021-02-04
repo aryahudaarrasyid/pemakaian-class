@@ -1,0 +1,9 @@
+class fighter():
+
+    def __init__(self, input_name, input_hp):
+        self.name = input_name
+        self.hp = input_hp
+
+aldous = fighter("aldous",100)
+
+print(aldous.name, aldous.hp)
