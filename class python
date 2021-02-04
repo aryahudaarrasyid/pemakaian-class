@@ -1,0 +1,15 @@
+class fighter():
+    name = 'name'
+    hp = 100
+
+    def diserang(self):
+        print(self.name, '-20')
+        print("hp tersisa :",self.hp - 20)
+
+aldous = fighter()
+sun = fighter()
+
+aldous.name = 'aldous'
+sun.name = 'sun'
+
+aldous.diserang()
